@@ -1,4 +1,4 @@
-I"‰<p>&lt;!doctype html&gt;</p>
+I"ˆ<p>&lt;!doctype html&gt;</p>
 <html>    
 <header class="header">
           <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
@@ -74,7 +74,7 @@
         </h1>
     </header>
         <div class="loader-wrapper">
-      <img src="assets/img/logo - Copia.png" class="loader" width="50" height="50" />
+      <img src="assets/img/pawnloading.png" class="loader" width="50" height="50" />
     </div>
        <section id="about" class="about-section" data-aos="fade-left">
         <h1>About us</h1>
