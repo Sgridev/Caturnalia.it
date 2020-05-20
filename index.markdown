@@ -20,6 +20,9 @@ layout: default
             Benvenuti al <br> circolo scacchistico <br> Caturnalia
         </h1>
     </header>
+        <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
        <section id="about" class="about-section" data-aos="fade-left">
         <h1>About us</h1>
         <div class="about-div">
