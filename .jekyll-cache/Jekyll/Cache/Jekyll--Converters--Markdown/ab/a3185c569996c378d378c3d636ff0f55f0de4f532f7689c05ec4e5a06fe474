@@ -1,8 +1,5 @@
-I"c<p>&lt;!doctype html&gt;</p>
-<html> 
-  <div class="loader-wrapper">
-      <span class="loader"><span class="loader-inner"></span></span>
-    </div>   
+I"y<p>&lt;!doctype html&gt;</p>
+<html>    
 <header class="header">
           <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
         <div class="full-nav">
@@ -75,7 +72,10 @@
         <h1 class="header-main-text" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
             Benvenuti al <br /> circolo scacchistico <br /> Caturnalia
         </h1>
-    </header>    
+    </header>
+        <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
        <section id="about" class="about-section" data-aos="fade-left">
         <h1>About us</h1>
         <div class="about-div">
@@ -95,7 +95,7 @@
        </section>
        <div class="news-div"> 
 <section id="news" class="news-section" data-aos="zoom-in-up"> 
-  <h1>News</h1>
+  &lt;h1 class="&gt;News&lt;/h1&gt;
 <ul class="news-ul">
     
     <li>

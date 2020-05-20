@@ -133,6 +133,9 @@ video {
     display: block;
 }
 
+.news-title{
+    color: white;
+}
 
 /* Change color of dropdown links on hover */
 
@@ -197,6 +200,7 @@ video {
     display:flex;
     justify-content: center;
     align-items: center;
+    position:fixed;
   }
   .loader {
     display: inline-block;
@@ -205,6 +209,7 @@ video {
     position: relative;
     border: 4px solid #Fff;
     animation: loader 2s infinite ease;
+    position:fixed;
   }
   .loader-inner {
     vertical-align: top;
@@ -212,6 +217,7 @@ video {
     width: 100%;
     background-color: #fff;
     animation: loader-inner 2s infinite ease-in;
+    position:fixed;
   }
   @keyframes loader {
     0% { transform: rotate(0deg);}

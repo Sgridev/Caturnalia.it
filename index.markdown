@@ -42,7 +42,7 @@ layout: default
        </section>
        <div class="news-div"> 
 <section id="news" class="news-section" data-aos="zoom-in-up"> 
-  <h1>News</h1>
+  <h1 class="news-title">News</h1>
 <ul class="news-ul">
     {% for post in site.posts %}
     <li>
