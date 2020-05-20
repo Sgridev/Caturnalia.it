@@ -1,0 +1,187 @@
+@font-face {
+    font-family: OpenSans-Light; 
+    src: url('../img/OpenSans-Light.ttf');
+ } 
+html,
+body {
+    overflow-x: hidden;
+    font-family: OpenSans-Light, Arial, Helvetica, sans-serif;
+}
+section{
+    padding-top: 80px;
+    margin-top: -80px
+}
+.post-body{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,.1)),
+    url("../img/postbg.jpg");
+}
+.news-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type:  none;
+    margin-top: 5%;
+}
+.about-section{
+    margin-bottom: 10%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.post-section{
+    margin-top: 150px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.btn{
+    background: rgb(167, 25, 48);
+}
+.news-div{
+    background: rgb(167, 25, 48);
+}
+.news-section{
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.post-title{
+    font-size: 7vw;
+    margin-bottom: 3%;
+    text-shadow: 1px 1px 2px white;
+}
+.post-article{
+  
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.about-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.full-nav {
+    display: flex;
+    padding-left: 20%;
+    width: 80%;
+}
+
+.header-main-text {
+    position: relative;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 7vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    z-index: -100;
+}
+
+.navbar-toggler {
+    margin-top: 40%;
+}
+
+.dropdown{
+    margin-right: 10%;
+}
+
+.nav-link{
+    white-space: nowrap;
+}
+.about-p{
+    margin-top: 4%;
+}
+.about-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+@media screen and (max-width: 768px) {
+    .about-section{
+        margin-bottom: 28%;
+    }
+    .navbar-collapse{
+        padding: .5rem 0;
+        margin: .125rem 0 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+        width: 25%;
+        margin-top: -28px;
+        border-style: double;
+        align-self: flex-end;
+        min-width: 10rem;
+    }
+    .full-nav {
+        padding-left: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-logo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .dropdown{
+        margin-left: 5%;
+    }
+    .about-logo{
+        display: none;
+    }
+  }
