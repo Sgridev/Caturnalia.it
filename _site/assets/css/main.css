@@ -196,7 +196,7 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #242f3f;
+    background-color: rgb(248, 249, 250);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -204,10 +204,10 @@ video {
   }
   .loader {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     position: relative;
-    border: 4px solid #Fff;
+    /* border: 4px solid black;  */
     animation: loader 2s infinite ease;
     position:fixed;
   }
@@ -215,7 +215,7 @@ video {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color: black;
     animation: loader-inner 2s infinite ease-in;
     position:fixed;
   }

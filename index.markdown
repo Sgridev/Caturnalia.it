@@ -21,7 +21,7 @@ layout: default
         </h1>
     </header>
         <div class="loader-wrapper">
-      <span class="loader"><span class="loader-inner"></span></span>
+      <img src="assets/img/sport.png" class="loader" width="50" height="50">
     </div>
        <section id="about" class="about-section" data-aos="fade-left">
         <h1>About us</h1>
