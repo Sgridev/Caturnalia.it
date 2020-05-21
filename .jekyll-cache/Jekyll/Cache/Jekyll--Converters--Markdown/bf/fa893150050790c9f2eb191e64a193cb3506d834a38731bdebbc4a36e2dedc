@@ -1,26 +1,10 @@
-<!doctype html>
+I"�$<p>&lt;!doctype html&gt;</p>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>Caturnalia - Amici per gli scacchi</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/../assets/css/main.css">
-    <script src="https://kit.fontawesome.com/ebff79e3f7.js" crossorigin="anonymous"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
-<div class="loader-wrapper">
-    <img src="/../assets/img/pawnloading.png" class="loader" width="50" height="50">
-</div>
-
-<body class="post-body">
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
+   <header class="header">
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
     <div class="full-nav">
         <div class="nav-logo">
-            <a class="navbar-brand" href="/index.html#videoBG" id="navvideoBG"><img src="/../assets/img/logo.png" alt="Caturnalia Logo" height="90" width="90" id="logo"> </a>
+            <a class="navbar-brand" href="/index.html#videoBG" id="navvideoBG"><img src="/../assets/img/logo.png" alt="Caturnalia Logo" height="90" width="90" id="logo" /> </a>
             <div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -78,37 +62,88 @@
         </div>
     </div>
 </nav>
-    <main>
-        <section class="post-section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
-            <h1 class="post-title">Memorial “Luigi Boffi” 2019</h1>
-            <article class="post-article">
-                <p>Il circolo Caturnalia – Amici degli scacchi<br />
-con il contributo di<br />
-Roberto Restaurant &amp; Bistrot<br />
-è lieto di invitare tutti al:<br />
-7° Semilampo Memorial “Luigi Boffi”<br />
-forte scacchista e amico di Caturnalia fin dalla sua fondazione.<br />
-Torneo di scacchi a cadenza semilampo 15’ in sette turni che si terrà presso il “Roberto Restaurant &amp; Bistrot”, splendida realtà immersa nel verde a Barlassina (MB), in via Longoni, 61 (all’interno del parco ex-tiro a segno – indicazioni in loco).<br />
-Si gioca domenica 14 luglio 2019 ore 14.30 - Chiusura iscrizioni ore 14,15.<br />
-E’ gradita la preiscrizioni online al seguente link:<br />
-Torneo Open: <a href="http://vesus.org/tournaments/7deg-memorial-quotluigi-boffiquot/">LINK</a><br />
-Al termine del torneo i partecipanti e i loro accompagnatori potranno partecipare alla “Cena degli scacchi” con vista sul parco – prezzo convenzionato.<br />
-Premi:<br />
-1° classificato: Trofeo “Luigi Boffi”<br />
-2° classificato: Coppa<br />
-3° classificato  Coppa<br />
-4° classificato: Coppa<br />
-5° classificato: Coppa<br />
-I premi sono da considerarsi non cumulabili e indivisibili.<br />
-Quote di iscrizione:<br />
-10 euro – riduzione a 5 euro per gli iscritti nati dopo il 1/1/2003.<br />
-Per informazioni: Pierluigi 333 6778751 - Claudio 348 8058458<br />
-L’organizzazione si riserva di apportare al presente bando le modifiche che si rendessero necessarie per la miglior riuscita della manifestazione.</p>
-
-            </article>
-
-        </section>
-        <div class="footer-div">
+      <video id="videoBG" playsinline="" autoplay="" muted="" loop="">
+         <source type="video/mp4" src="assets/img/Chess_Video_Background_hd.mp4" />
+         <source type="video/webm" src="assets/img/Chess_Video_Background_hd.webm" />
+      </video>
+      <!-- Main Text-->
+      <h1 class="header-main-text" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
+         Benvenuti al <br /> circolo scacchistico <br /> Caturnalia
+      </h1>
+   </header>
+   <div class="loader-wrapper">
+      <img src="assets/img/pawnloading.png" class="loader" width="50" height="50" />
+   </div>
+   <section id="about" class="about-section" data-aos="fade-left">
+      <h1>About us</h1>
+      <div class="about-div">
+         <section id="about-description">
+            <section class="about-p" data-aos="fade-left">
+               <p>Benvenuto nel circolo <strong>Caturnalia</strong>! Qui troverai tornei, lezioni, sfide, ma soprattutto nuovi <strong>amici</strong>!</p>
+               <p>Inoltre troverai scacchiere, pezzi e orologi di qualità, un'ambiente tranquillo, informale e <strong>rilassato</strong>.</p>
+               <p>Che tu sappia solo come muovere i pezzi o sia alla ricerca di una sfida per mettere alla prova le tue <strong>capacità</strong>, questo è il posto giusto per te.</p>
+               <p>Ci incontriamo ogni <strong>giovedì</strong> a partire dalle 21:00 nel nuovo centro Polifunzionale di Barlassina.</p>
+               <p><strong>Ti aspettiamo!</strong></p>
+            </section>
+         </section>
+         <section class="about-logo" data-aos="fade-right">
+            <img src="assets/img/logo.png" width="400" height="400" />
+         </section>
+      </div>
+   </section>
+   <section id="news" class="news-section">
+      <div class="news-div" data-aos="zoom-in-up">
+         <h1 class="news-title">News</h1>
+         <ul class="news-ul">
+            
+            <li class="card-li">
+               <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                  <div class="card-body">
+                     <h5 class="card-title">Semilampo di Natale 2019</h5>
+                     <p class="card-text">Dec 2, 2019</p>
+                     <a href="/chess/tournament/2019/12/02/semilampo-di-natale.html" class="btn btn-primary">Semilampo di Natale 2019</a>
+                  </div>
+               </div>
+            </li>
+            
+            <li class="card-li">
+               <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                  <div class="card-body">
+                     <h5 class="card-title">LampoPanettonata 2019</h5>
+                     <p class="card-text">Dec 2, 2019</p>
+                     <a href="/chess/tournament/2019/12/02/lampopanettonata.html" class="btn btn-primary">LampoPanettonata 2019</a>
+                  </div>
+               </div>
+            </li>
+            
+            <li class="card-li">
+               <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                  <div class="card-body">
+                     <h5 class="card-title">Gara di soluzioni 2019</h5>
+                     <p class="card-text">Dec 2, 2019</p>
+                     <a href="/chess/tournament/2019/12/02/gara-di-soluzioni.html" class="btn btn-primary">Gara di soluzioni 2019</a>
+                  </div>
+               </div>
+            </li>
+            
+            <li class="card-li">
+               <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                  <div class="card-body">
+                     <h5 class="card-title">Memorial “Luigi Boffi” 2019</h5>
+                     <p class="card-text">Jul 14, 2019</p>
+                     <a href="/chess/tournament/2019/07/14/memorial-boffi-2019.html" class="btn btn-primary">Memorial “Luigi Boffi” 2019</a>
+                  </div>
+               </div>
+            </li>
+            
+         </ul>
+      </div>
+   </section>
+   <div class="footer-div">
     <div class="footerlinks-div">
         <h1 class="footer-title">QUICK LINKS</h1>
         <ul class="footerlinks-ul">
@@ -148,13 +183,5 @@ L’organizzazione si riserva di apportare al presente bando le modifiche che si
             <strong>Sgri</strong></a>
     </div>
 </div>
-    </main>
-
-    <footer>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="/../assets/js/main.js"></script>
-    </footer>
-</body>
-
 </html>
+:ET
