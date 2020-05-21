@@ -123,6 +123,7 @@ video {
 
 .nav-link{
     white-space: nowrap;
+    transition: 0.3s;
 }
 .about-p{
     margin-top: 4%;
@@ -151,10 +152,23 @@ video {
     color: white;
 }
 
+.firm-div{
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 /* Change color of dropdown links on hover */
+.nav-link:hover{ 
+    background-color: rgb(167, 25, 48) !important;
+    color:white !important;
+}
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(167, 25, 48) !important;
+    color:white !important;
 }
 
 
@@ -163,6 +177,7 @@ video {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
 
 @media screen and (max-width: 768px) {
     .about-section{

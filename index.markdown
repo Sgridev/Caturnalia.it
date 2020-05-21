@@ -58,5 +58,13 @@ layout: default
     {% endfor %}
 </ul>  
 </section>
+<section>
+<div class="footer-div"></div>
+<div class="firm-div">
+<div style="padding: 1%; white-space: nowrap;">Made with <span style="color:red">❤</span> by <a href="https:\\andreagrisafi.it" target="_blank" rel="noopener noreferrer"> <strong>Sgri</strong></a></div>
+</div>
+</section>
 </div> 
+
+
 </html>
