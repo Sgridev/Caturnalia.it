@@ -21,6 +21,6 @@ Quote di iscrizione:
 A seguire: panettone e spumante per tutti!  
 Vi aspettiamo numerosi  
 Gradita la preiscrizione online al seguente link:  
-[http://vesus.org/tournaments/lampo-di-natale-2019/](http://vesus.org/tournaments/lampo-di-natale-2019/)
+[LINK](http://vesus.org/tournaments/lampo-di-natale-2019/)
 
  

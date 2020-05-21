@@ -37,6 +37,18 @@ section{
 .btn{
     background: rgb(167, 25, 48);
 }
+.btn-primary{
+    border-color:transparent !important; 
+    width: 100%;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+    color: #fff;
+    background-color: #B0483B !important;
+    border-color: rgb(167, 25, 48) !important; /*set the color you want here*/
+}
 .news-div{
     background: rgb(167, 25, 48);
 }

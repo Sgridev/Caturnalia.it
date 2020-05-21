@@ -19,7 +19,7 @@ Quote di iscrizione:
 •Non soci: 5 Euro  
 Brindisi e panettone a fine torneo.     
 E’ consigliata la preiscrizione online al seguente link:  
-[http://vesus.org/tournaments/semilampo-di-natale-2019/](http://vesus.org/tournaments/semilampo-di-natale-2019/)  
+[LINK](http://vesus.org/tournaments/semilampo-di-natale-2019/)  
 ATTENZIONE !!! I posti sono limitati, daremo la precedenza ai preiscritti.    
 Per informazioni: Pierluigi 333 6778751 - Claudio 348 8058458  
 L'organizzazione si riserva di apportare al presente bando le modifiche che si rendessero necessari per la miglior riuscita della manifestazione.  

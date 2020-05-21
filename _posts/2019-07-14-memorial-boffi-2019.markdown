@@ -13,7 +13,7 @@ forte scacchista e amico di Caturnalia fin dalla sua fondazione.
 Torneo di scacchi a cadenza semilampo 15' in sette turni che si terrà presso il "Roberto Restaurant & Bistrot", splendida realtà immersa nel verde a Barlassina (MB), in via Longoni, 61 (all'interno del parco ex-tiro a segno – indicazioni in loco).  
 Si gioca domenica 14 luglio 2019 ore 14.30 - Chiusura iscrizioni ore 14,15.  
 E' gradita la preiscrizioni online al seguente link:  
-Torneo Open: [http://vesus.org/tournaments/7deg-memorial-quotluigi-boffiquot/](http://vesus.org/tournaments/7deg-memorial-quotluigi-boffiquot/)  
+Torneo Open: [LINK](http://vesus.org/tournaments/7deg-memorial-quotluigi-boffiquot/)  
 Al termine del torneo i partecipanti e i loro accompagnatori potranno partecipare alla “Cena degli scacchi” con vista sul parco – prezzo convenzionato.  
 Premi:  
 1° classificato: Trofeo “Luigi Boffi”  
