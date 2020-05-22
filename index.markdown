@@ -6,6 +6,7 @@ layout: default
 <html>
    <header class="header">
       {% include nav.html %}
+      <a id="buttontop"></a>
       <video id="videoBG" playsinline autoplay muted loop>
          <source type="video/mp4" src="assets/img/Chess_Video_Background_hd.mp4" />
          <source type="video/webm" src="assets/img/Chess_Video_Background_hd.webm" />
