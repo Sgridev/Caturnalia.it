@@ -1,4 +1,4 @@
-I"Ÿ$<p>&lt;!doctype html&gt;</p>
+I"t%<p>&lt;!doctype html&gt;</p>
 <html>
    <header class="header">
       <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
@@ -18,7 +18,7 @@
                     <!-- About dropdown-->
                     <ul class="nav dropdown-content bg-light">
                         <li class="nav-item active">
-                            <a class="" href="#">Chi siamo </a>
+                            <a id="navchisiamo" href="/index.html#chisiamo">Chi siamo </a>
                         </li>
                         <li class="nav-item active">
                             <a class="" href="#">Dove Siamo </a>
@@ -143,6 +143,12 @@
          </ul>
       </div>
    </section>
+   <section id="chisiamo" class="chisiamo-section">
+   <div class="parallax">
+        Chi siamo
+   </div>
+   <div class="chisiamo-div">
+   &lt;/section&gt;
    <div class="footer-div">
     <div class="footerlinks-div">
         <h1 class="footer-title">QUICK LINKS</h1>
@@ -183,5 +189,6 @@
             <strong>Sgri</strong></a>
     </div>
 </div>
-</html>
+&lt;/html&gt;
+</div></section></html>
 :ET

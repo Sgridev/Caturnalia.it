@@ -57,5 +57,24 @@ layout: default
          </ul>
       </div>
    </section>
+   <section id="chisiamo" class="chisiamo-section">
+   <div class="parallax">
+        Chi siamo
+   </div>
+   <div class="chisiamo-div">
+   <div class="gigisala-div" style="align-self: center;">
+   <h1 style="color: #999999;">Gigi Sala</h1>
+   <h1 style="">Presidente</h1>
+   <img widht="200" height="200" src="assets/img/gigi.jpg" style="border-radius: 50%;">
+   <p style="width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis, mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+   </div>
+   <div class="claudioruzza-div" style="align-self: center;">
+   <h1 style="color: #999999;">Claudio Ruzza</h1>
+   <h1>Istruttore</h1>
+   <img widht="200" height="200" src="assets/img/claudio.jpg" style="border-radius: 50%;">
+    <p style="width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis, mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+   </div>
+   </div>
+   </section>
    {% include footer.html %}
 </html>
