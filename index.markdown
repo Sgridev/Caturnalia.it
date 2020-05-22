@@ -39,7 +39,7 @@ layout: default
       </div>
    </section>
    <section id="news" class="news-section">
-      <div class="news-div" data-aos="zoom-in-up">
+      <div class="news-div" data-aos="zoom-in">
          <h1 class="news-title">News</h1>
          <ul class="news-ul">
             {% for post in site.posts limit:4%}

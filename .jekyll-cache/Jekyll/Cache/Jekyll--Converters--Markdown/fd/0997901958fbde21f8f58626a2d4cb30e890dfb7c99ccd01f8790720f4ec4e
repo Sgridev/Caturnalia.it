@@ -1,4 +1,4 @@
-I"¢$<p>&lt;!doctype html&gt;</p>
+I"Ÿ$<p>&lt;!doctype html&gt;</p>
 <html>
    <header class="header">
       <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
@@ -92,7 +92,7 @@
       </div>
    </section>
    <section id="news" class="news-section">
-      <div class="news-div" data-aos="zoom-in-up">
+      <div class="news-div" data-aos="zoom-in">
          <h1 class="news-title">News</h1>
          <ul class="news-ul">
             
