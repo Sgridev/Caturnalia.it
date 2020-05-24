@@ -1,0 +1,25 @@
+@use 'variables';
+@use 'base';
+.post-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .1)), url("../img/postbg.jpg");
+}
+
+.post-section {
+    margin-top: 4vh;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 7vw;
+    margin-bottom: 3%;
+    text-shadow: 1px 1px 2px white;
+}
+
+.post-article {
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
