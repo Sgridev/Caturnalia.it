@@ -1,0 +1,243 @@
+/* VARIABLES */
+
+$standard-red: rgb(167, 25, 48);
+
+/* LAYOUT */
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url('../img/OpenSans-Light.ttf');
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: OpenSans-Light, Arial, Helvetica, sans-serif;
+}
+
+section {
+    /*Fix the navigation with fixed navbar*/
+    padding-top: 80px;
+    margin-top: -80px
+}
+
+.navbar {
+    height: 100px;
+    display: none;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.full-nav {
+    display: flex;
+    padding-left: 20%;
+    width: 80%;
+}
+
+.navbar-toggler {
+    margin-top: 40%;
+}
+
+.dropdown {
+    margin-right: 10%;
+}
+
+.nav-link {
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: $standard-red !important;
+    color: white !important;
+}
+
+.dropdown-content a:hover {
+    background-color: $standard-red !important;
+    color: white !important;
+}
+
+.firm-div {
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.firm-text {
+    padding: 1%;
+    white-space: nowrap;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-around;
+    background-color: #252b34;
+    color: white;
+    padding: 2%;
+}
+
+.footerlinks-div {
+    margin-right: 2%;
+}
+
+.footercontacts-links-div {
+    margin-right: 2%;
+}
+
+.footer-title {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.footerlinks-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-a {
+    margin-bottom: 1.5%;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-a:hover {
+    color: $standard-red !important;
+    text-decoration: none;
+}
+
+.footercontacts-div {
+    padding-bottom: 15%;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.loader {
+    display: inline-block;
+    animation: loader 2s infinite ease;
+    position: fixed;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    animation: loader-inner 2s infinite ease-in;
+    position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-div {
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    .footercontacts-div {
+        padding-bottom: 3%;
+    }
+    .footercontacts-links-div {
+        margin-bottom: 3%;
+    }
+    .navbar-collapse {
+        padding: .5rem 0;
+        margin: .125rem 0 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: .25rem;
+        width: 25%;
+        margin-top: -28px;
+        border-style: double;
+        align-self: flex-end;
+        min-width: 10rem;
+    }
+    .full-nav {
+        padding-left: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-logo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .dropdown {
+        margin-left: 5%;
+    }
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+    25% {
+        height: 0%;
+    }
+    50% {
+        height: 100%;
+    }
+    75% {
+        height: 100%;
+    }
+    100% {
+        height: 0%;
+    }
+}

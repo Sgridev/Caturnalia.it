@@ -1,0 +1,501 @@
+@charset "UTF-8";
+/* VARIABLES */
+/* LAYOUT */
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../img/OpenSans-Light.ttf");
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: OpenSans-Light, Arial, Helvetica, sans-serif;
+}
+
+section {
+  /*Fix the navigation with fixed navbar*/
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.navbar {
+  height: 100px;
+  display: none;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.full-nav {
+  display: flex;
+  padding-left: 20%;
+  width: 80%;
+}
+
+.navbar-toggler {
+  margin-top: 40%;
+}
+
+.dropdown {
+  margin-right: 10%;
+}
+
+.nav-link {
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-link:hover {
+  background-color: #a71930 !important;
+  color: white !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #a71930 !important;
+  color: white !important;
+}
+
+.firm-div {
+  width: 100%;
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.firm-text {
+  padding: 1%;
+  white-space: nowrap;
+  font-weight: 400;
+  color: #666666;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #252b34;
+  color: white;
+  padding: 2%;
+}
+
+.footerlinks-div {
+  margin-right: 2%;
+}
+
+.footercontacts-links-div {
+  margin-right: 2%;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footerlinks-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-a {
+  margin-bottom: 1.5%;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  color: #a71930 !important;
+  text-decoration: none;
+}
+
+.footercontacts-div {
+  padding-bottom: 15%;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.loader {
+  display: inline-block;
+  animation: loader 2s infinite ease;
+  position: fixed;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  animation: loader-inner 2s infinite ease-in;
+  position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-div {
+    flex-direction: column;
+    padding-left: 5%;
+  }
+
+  .footercontacts-div {
+    padding-bottom: 3%;
+  }
+
+  .footercontacts-links-div {
+    margin-bottom: 3%;
+  }
+
+  .navbar-collapse {
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    width: 25%;
+    margin-top: -28px;
+    border-style: double;
+    align-self: flex-end;
+    min-width: 10rem;
+  }
+
+  .full-nav {
+    padding-left: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .dropdown {
+    margin-left: 5%;
+  }
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+.post-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/postbg.jpg");
+}
+
+.news-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 0;
+  padding-inline-start: 0px;
+}
+
+.about-section {
+  margin-bottom: 10%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.post-section {
+  margin-top: 4vh;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.btn {
+  background: #a71930;
+}
+
+.btn-primary {
+  border-color: transparent !important;
+  width: 100%;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  color: #fff;
+  background-color: #B0483B !important;
+  border-color: #a71930 !important;
+  /*set the color you want here*/
+}
+
+.news-section {
+  background: #a71930;
+}
+
+.news-div {
+  margin-bottom: 0%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.post-title {
+  font-size: 7vw;
+  margin-bottom: 3%;
+  text-shadow: 1px 1px 2px white;
+}
+
+.post-article {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: solid;
+  font-size: 110%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+}
+
+.header-main-text {
+  position: relative;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 7vw;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  z-index: -100;
+}
+
+.about-p {
+  margin-top: 4%;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.news-title {
+  color: white;
+}
+
+.parallax-chisiamo {
+  background-image: url("../img/chisiamo.jpg");
+  height: 4em;
+  line-height: 4em;
+  white-space: nowrap;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 7vw;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.parallax-dovesiamo {
+  background-image: url("../img/dovesiamo.jpg");
+  height: 4em;
+  line-height: 4em;
+  white-space: nowrap;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 7vw;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.dovesiamo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3%;
+}
+
+.chisiamo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chisiamo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1%;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.card-li {
+  padding: 2%;
+}
+
+#buttontop {
+  display: inline-block;
+  background-color: #a71930;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#buttontop::after {
+  content: "";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#buttontop:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#buttontop:active {
+  background-color: #555;
+}
+
+#buttontop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 850px) {
+  .dovesiamo-div {
+    flex-direction: column;
+  }
+
+  .map-iframe {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #buttontop {
+    width: 35px;
+    height: 35px;
+    background-color: #a71930;
+  }
+
+  #buttontop:hover {
+    background-color: #a71930;
+  }
+
+  #buttontop::after {
+    line-height: 35px;
+  }
+
+  .about-section {
+    margin-bottom: 28%;
+  }
+
+  .about-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card {
+    width: 150px;
+  }
+
+  .card-img,
+.card-img-bottom,
+.card-img-top {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
