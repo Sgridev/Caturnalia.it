@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var btn = $('#buttontop');
+    var btn = $('.btnTop');
     $('.header').height($(window).height());
     $('.dropdown').hover(function() {
 

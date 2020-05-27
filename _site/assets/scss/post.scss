@@ -1,7 +1,9 @@
 @use 'variables';
 @use 'base';
-.post-body {
+.post-main {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .1)), url("../img/postbg.jpg");
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .post-section {
@@ -20,6 +22,11 @@
     margin-left: 15%;
     margin-right: 15%;
     border-style: solid;
-    font-size: 110%;
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .post-article {
+        margin: 0;
+    }
 }

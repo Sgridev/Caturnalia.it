@@ -3,26 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Caturnalia - Amici per gli scacchi</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<title>Caturnalia - Amici per gli scacchi</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/ebff79e3f7.js" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="assets/css/index.css">
-    <script src="https://kit.fontawesome.com/ebff79e3f7.js" crossorigin="anonymous"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="assets/css/news.css">
 </head>
 
 <body>
-
-
-    <p>&lt;!doctype html&gt;</p>
-<html>
-   <header class="header">
-      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
     <div class="full-nav">
         <div class="nav-logo">
-            <a class="navbar-brand" href="/index.html#videoBG" id="navvideoBG"><img src="/../assets/img/logo.png" alt="Caturnalia Logo" height="90" width="90" id="logo" /> </a>
+            <a class="navbar-brand" href="/index.html#videoBG" id="navvideoBG"><img src="/../assets/img/logo.png" alt="Caturnalia Logo" height="90" width="90" id="logo"> </a>
             <div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,7 +45,7 @@
                     <!-- News dropdown-->
                     <ul class="nav dropdown-content bg-light">
                         <li class="nav-item active">
-                            <a class="" href="#">News da Caturnalia </a>
+                            <a class="" href="/newsDaCaturnalia.html">News da Caturnalia </a>
                         </li>
                     </ul>
                 </li>
@@ -80,127 +77,136 @@
         </div>
     </div>
 </nav>
-      <a id="buttontop"></a>
-      <video id="videoBG" playsinline="" autoplay="" muted="" loop="">
+<div class="loader-wrapper">
+    <img src="/../assets/img/pawnloading.png" class="loader" width="50" height="50">
+</div>
+    </header>
+    <main>
+        <p>&lt;!doctype html&gt;</p>
+<section id="videoBG" class="header">
+    <a class="btnTop"></a>
+    <video playsinline="" autoplay="" muted="" loop="">
          <source type="video/mp4" src="assets/img/Chess_Video_Background_hd.mp4" />
          <source type="video/webm" src="assets/img/Chess_Video_Background_hd.webm" />
       </video>
-      <!-- Main Text-->
-      <h1 class="header-main-text" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
-         Benvenuti al <br /> circolo scacchistico <br /> Caturnalia
-      </h1>
-   </header>
-   <div class="loader-wrapper">
-      <img src="assets/img/pawnloading.png" class="loader" width="50" height="50" />
-   </div>
-   <section id="about" class="about-section" data-aos="fade-left">
-      <h1>About us</h1>
-      <div class="about-div">
-         <section id="about-description">
+    <h1 class="header-main-text" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
+        Benvenuti al <br /> circolo scacchistico <br /> Caturnalia
+    </h1>
+</section>
+<section id="about" class="about-section" data-aos="fade-left">
+    <h1>About us</h1>
+    <div class="about-div">
+        <section id="about-description">
             <section class="about-p" data-aos="fade-left">
-               <p>Benvenuto nel circolo <strong>Caturnalia</strong>! Qui troverai tornei, lezioni, sfide, ma soprattutto nuovi <strong>amici</strong>!</p>
-               <p>Inoltre troverai scacchiere, pezzi e orologi di qualità, un'ambiente tranquillo, informale e <strong>rilassato</strong>.</p>
-               <p>Che tu sappia solo come muovere i pezzi o sia alla ricerca di una sfida per mettere alla prova le tue <strong>capacità</strong>, questo è il posto giusto per te.</p>
-               <p>Ci incontriamo ogni <strong>giovedì</strong> a partire dalle 21:00 nel nuovo centro Polifunzionale di Barlassina.</p>
-               <p><strong>Ti aspettiamo!</strong></p>
+                <p>Benvenuto nel circolo <strong>Caturnalia</strong>! Qui troverai tornei, lezioni, sfide, ma soprattutto nuovi <strong>amici</strong>!</p>
+                <p>Inoltre troverai scacchiere, pezzi e orologi di qualità, un'ambiente tranquillo, informale e <strong>rilassato</strong>.</p>
+                <p>Che tu sappia solo come muovere i pezzi o sia alla ricerca di una sfida per mettere alla prova le tue <strong>capacità</strong>, questo è il posto giusto per te.</p>
+                <p>Ci incontriamo ogni <strong>giovedì</strong> a partire dalle 21:00 nel nuovo centro Polifunzionale di Barlassina.</p>
+                <p><strong>Ti aspettiamo!</strong></p>
             </section>
-         </section>
-         <section class="about-logo" data-aos="fade-right">
+        </section>
+        <section class="about-logo" data-aos="fade-right">
             <img src="assets/img/logo.png" width="400" height="400" />
-         </section>
-      </div>
-   </section>
-   <section id="news" class="news-section">
-      <div class="news-div" data-aos="zoom-in">
-         <h1 class="news-title">News</h1>
-         <ul class="news-ul">
+        </section>
+    </div>
+</section>
+<section id="news" class="news-section">
+    <div class="news-div" data-aos="zoom-in">
+        <h1 class="news-title">News</h1>
+        <ul class="news-ul">
             
             <li class="card-li">
-               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
-                  <div class="card-body">
-                     <h5 class="card-title">Semilampo di Natale 2019</h5>
-                     <p class="card-text">Dec 2, 2019</p>
-                     <a href="/chess/tournament/2019/12/02/semilampo-di-natale.html" class="btn btn-primary">Semilampo di Natale 2019</a>
-                  </div>
-               </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                    <div class="card-body">
+                        <h5 class="card-title">Semilampo di Natale 2019</h5>
+                        <p class="card-text">Dec 2, 2019</p>
+                        <a href="/chess/tournament/2019/12/02/semilampo-di-natale.html" class="btn btn-primary">Semilampo di Natale 2019</a>
+                    </div>
+                </div>
             </li>
             
             <li class="card-li">
-               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
-                  <div class="card-body">
-                     <h5 class="card-title">LampoPanettonata 2019</h5>
-                     <p class="card-text">Dec 2, 2019</p>
-                     <a href="/chess/tournament/2019/12/02/lampopanettonata.html" class="btn btn-primary">LampoPanettonata 2019</a>
-                  </div>
-               </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                    <div class="card-body">
+                        <h5 class="card-title">LampoPanettonata 2019</h5>
+                        <p class="card-text">Dec 2, 2019</p>
+                        <a href="/chess/tournament/2019/12/02/lampopanettonata.html" class="btn btn-primary">LampoPanettonata 2019</a>
+                    </div>
+                </div>
             </li>
             
             <li class="card-li">
-               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
-                  <div class="card-body">
-                     <h5 class="card-title">Gara di soluzioni 2019</h5>
-                     <p class="card-text">Dec 2, 2019</p>
-                     <a href="/chess/tournament/2019/12/02/gara-di-soluzioni.html" class="btn btn-primary">Gara di soluzioni 2019</a>
-                  </div>
-               </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                    <div class="card-body">
+                        <h5 class="card-title">Gara di soluzioni 2019</h5>
+                        <p class="card-text">Dec 2, 2019</p>
+                        <a href="/chess/tournament/2019/12/02/gara-di-soluzioni.html" class="btn btn-primary">Gara di soluzioni 2019</a>
+                    </div>
+                </div>
             </li>
             
             <li class="card-li">
-               <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
-                  <div class="card-body">
-                     <h5 class="card-title">Memorial “Luigi Boffi” 2019</h5>
-                     <p class="card-text">Jul 14, 2019</p>
-                     <a href="/chess/tournament/2019/07/14/memorial-boffi-2019.html" class="btn btn-primary">Memorial “Luigi Boffi” 2019</a>
-                  </div>
-               </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia" />
+                    <div class="card-body">
+                        <h5 class="card-title">Memorial “Luigi Boffi” 2019</h5>
+                        <p class="card-text">Jul 14, 2019</p>
+                        <a href="/chess/tournament/2019/07/14/memorial-boffi-2019.html" class="btn btn-primary">Memorial “Luigi Boffi” 2019</a>
+                    </div>
+                </div>
             </li>
             
-         </ul>
-      </div>
-   </section>
-   <section id="chisiamo" class="chisiamo-section">
-   <div class="parallax-chisiamo">
+        </ul>
+    </div>
+</section>
+<section id="chisiamo" class="chisiamo-section">
+    <div class="parallax-chisiamo">
         Chi siamo
-   </div>
-   <div class="chisiamo-div">
-   <div class="chisiamo-card">
-   <h1 style="color: #999999;">Gigi Sala</h1>
-   <h1 style="">Presidente</h1>
-   <img widht="200" height="200" src="assets/img/gigi.jpg" style="border-radius: 50%;" />
-   <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis, mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
-   </div>
-   <div class="chisiamo-card">
-   <h1 style="color: #999999;">Claudio Ruzza</h1>
-   <h1>Istruttore</h1>
-   <img widht="200" height="200" src="assets/img/claudio.jpg" style="border-radius: 50%;" />
-    <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis, mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
-   </div>
-   </div>
-   </section>
-   <section id="dovesiamo" class="dovesiamo-section">
-      <div class="parallax-dovesiamo">
+    </div>
+    <div class="chisiamo-div">
+        <div class="chisiamo-card">
+            <h1 style="color: #999999;">Gigi Sala</h1>
+            <h1 style="">Presidente</h1>
+            <img widht="200" height="200" src="assets/img/gigi.jpg" style="border-radius: 50%;" />
+            <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
+                mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+        </div>
+        <div class="chisiamo-card">
+            <h1 style="color: #999999;">Claudio Ruzza</h1>
+            <h1>Istruttore</h1>
+            <img widht="200" height="200" src="assets/img/claudio.jpg" style="border-radius: 50%;" />
+            <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
+                mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+        </div>
+    </div>
+</section>
+<section id="dovesiamo" class="dovesiamo-section">
+    <div class="parallax-dovesiamo">
         Dove siamo
-   </div>
-   <div class="dovesiamo-div">
-   <div style="margin-right: 3%;">
-   <h3>Ci incontriamo al Centro Polifunzionale di Barlassina</h3>
-   <h4 style="margin-top: 1%; color: #999999;">Via Don Carlo Borghi, Barlassina, MB</h4>
-   <p style="max-width: 30em; margin-top: 3%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis, mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
-   </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2788.5099092558194!2d9.13480791583685!3d45.66066292833301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478697cf39b953ff%3A0x80f9e7902945a198!2sCaturnalia%20-%20Circolo%20Amici%20degli%20Scacchi!5e0!3m2!1sit!2sit!4v1590223054694!5m2!1sit!2sit" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map-iframe"></iframe>
-</div>
-   </section>
-   <div class="footer-div">
+    </div>
+    <div class="dovesiamo-div">
+        <div style="margin-right: 3%;">
+            <h3>Ci incontriamo al Centro Polifunzionale di Barlassina</h3>
+            <h4 style="margin-top: 1%; color: #999999;">Via Don Carlo Borghi, Barlassina, MB</h4>
+            <p style="max-width: 30em; margin-top: 3%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
+                mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2788.5099092558194!2d9.13480791583685!3d45.66066292833301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478697cf39b953ff%3A0x80f9e7902945a198!2sCaturnalia%20-%20Circolo%20Amici%20degli%20Scacchi!5e0!3m2!1sit!2sit!4v1590223054694!5m2!1sit!2sit" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map-iframe"></iframe>
+    </div>
+</section>
+
+    </main>
+    <footer>
+        <div class="footer-div">
     <div class="footerlinks-div">
         <h1 class="footer-title">QUICK LINKS</h1>
         <ul class="footerlinks-ul">
             <li><a class="footer-a" href="/index.html#chisiamo">Chi siamo</a></li>
             <li><a class="footer-a" href="/index.html#dovesiamo">Dove siamo</a></li>
-            <li><a class="footer-a" href="#">News da Caturnalia</a></li>
+            <li><a class="footer-a" href="/newsDaCaturnalia.html">News da Caturnalia</a></li>
             <li><a class="footer-a" href="#">Archivio Tornei</a></li>
             <li><a class="footer-a" href="#">Galleria</a></li>
             <li><a class="footer-a" href="#">Didattica</a></li>
@@ -234,13 +240,10 @@
             <strong>Sgri</strong></a>
     </div>
 </div>
-</html>
 
-
-    <footer>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="/../assets/js/main.js"></script>
     </footer>
 </body>
 

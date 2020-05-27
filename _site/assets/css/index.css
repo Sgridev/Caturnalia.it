@@ -390,7 +390,7 @@ video {
   padding: 2%;
 }
 
-#buttontop {
+.btnTop {
   display: inline-block;
   background-color: #a71930;
   width: 50px;
@@ -406,7 +406,7 @@ video {
   z-index: 1000;
 }
 
-#buttontop::after {
+.btnTop::after {
   content: "";
   font-family: FontAwesome;
   font-weight: normal;
@@ -416,16 +416,16 @@ video {
   color: #fff;
 }
 
-#buttontop:hover {
+.btnTop:hover {
   cursor: pointer;
   background-color: #333;
 }
 
-#buttontop:active {
+.btnTop:active {
   background-color: #555;
 }
 
-#buttontop.show {
+.btnTop.show {
   opacity: 1;
   visibility: visible;
 }
@@ -440,17 +440,17 @@ video {
   }
 }
 @media screen and (max-width: 768px) {
-  #buttontop {
+  .btnTop {
     width: 35px;
     height: 35px;
     background-color: #a71930;
   }
 
-  #buttontop:hover {
+  .btnTop:hover {
     background-color: #a71930;
   }
 
-  #buttontop::after {
+  .btnTop::after {
     line-height: 35px;
   }
 
