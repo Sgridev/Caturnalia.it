@@ -31,9 +31,9 @@ layout: default
     </div>
 </section>
 <section id="news" class="news-section">
-    <div class="news-div" data-aos="zoom-in">
-        <h1 class="news-title">News</h1>
-        <ul class="news-ul">
+    <div class="news-div">
+        <h1 class="news-title" data-aos="zoom-in">News</h1>
+        <ul class="news-ul" data-aos="fade-zoom-in">
             {% for post in site.posts limit:4%}
             <li class="card-li">
                 <div class="card" style="width: 18rem;">

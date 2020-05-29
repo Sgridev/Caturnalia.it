@@ -1,4 +1,4 @@
-I"I<p>&lt;!doctype html&gt;</p>
+I"a<p>&lt;!doctype html&gt;</p>
 <section id="videoBG" class="header">
     <a class="btnTop"></a>
     <video playsinline="" autoplay="" muted="" loop="">
@@ -27,9 +27,9 @@
     </div>
 </section>
 <section id="news" class="news-section">
-    <div class="news-div" data-aos="zoom-in">
-        <h1 class="news-title">News</h1>
-        <ul class="news-ul">
+    <div class="news-div">
+        <h1 class="news-title" data-aos="zoom-in">News</h1>
+        <ul class="news-ul" data-aos="fade-zoom-in">
             
             <li class="card-li">
                 <div class="card" style="width: 18rem;">

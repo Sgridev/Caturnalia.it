@@ -5,7 +5,6 @@ $(document).ready(function() {
 
         $(this).find('.dropdown-content').stop(true, true).delay(200).fadeIn();
     }, function() {
-        console.log('x');
         $(this).find('.dropdown-content').stop(true, true).delay(200).fadeOut();
     });
     AOS.init();
