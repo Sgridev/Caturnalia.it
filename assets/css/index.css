@@ -236,6 +236,10 @@ body {
   font-family: OpenSans-Light, Arial, Helvetica, sans-serif;
 }
 
+main {
+  display: none;
+}
+
 section {
   /*Fix the navigation with fixed navbar*/
   padding-top: 80px;
