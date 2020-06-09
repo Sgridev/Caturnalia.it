@@ -13,11 +13,11 @@ layout: default
         Benvenuti al <br> circolo scacchistico <br> Caturnalia
     </h1>
 </section>
-<section id="about" class="about-section" data-aos="fade-left">
+<section id="about" class="about-section" data-aos="fade-left" data-aos-delay="150">
     <h1>About us</h1>
     <div class="about-div">
         <section id="about-description">
-            <section class="about-p" data-aos="fade-left">
+            <section class="about-p" data-aos="fade-left" data-aos-delay="150">
                 <p>Benvenuto nel circolo <strong>Caturnalia</strong>! Qui troverai tornei, lezioni, sfide, ma soprattutto nuovi <strong>amici</strong>!</p>
                 <p>Inoltre troverai scacchiere, pezzi e orologi di qualità, un'ambiente tranquillo, informale e <strong>rilassato</strong>.</p>
                 <p>Che tu sappia solo come muovere i pezzi o sia alla ricerca di una sfida per mettere alla prova le tue <strong>capacità</strong>, questo è il posto giusto per te.</p>
@@ -25,15 +25,15 @@ layout: default
                 <p><strong>Ti aspettiamo!</strong></p>
             </section>
         </section>
-        <section class="about-logo" data-aos="fade-right">
+        <section class="about-logo" data-aos="fade-right" data-aos-delay="150">
             <img src="assets/img/logo.png" width="400" height="400">
         </section>
     </div>
 </section>
 <section id="news" class="news-section">
     <div class="news-div">
-        <h1 class="news-title" data-aos="zoom-in">News</h1>
-        <ul class="news-ul" data-aos="fade-zoom-in">
+        <h1 class="news-title" data-aos="zoom-in" data-aos-delay="150">News</h1>
+        <ul class="news-ul" data-aos="fade-zoom-in" data-aos-delay="150">
             {% for post in site.posts limit:4%}
             <li class="card-li">
                 <div class="card" style="width: 18rem;">
@@ -54,14 +54,14 @@ layout: default
         Chi siamo
     </div>
     <div class="chisiamo-div">
-        <div class="chisiamo-card">
+        <div class="chisiamo-card"  data-aos="fade-left"  data-aos-delay="150">
             <h1 style="color: #999999;">Gigi Sala</h1>
             <h1 style="">Presidente</h1>
             <img widht="200" height="200" src="assets/img/gigi.jpg" style="border-radius: 50%;">
             <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
                 mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
         </div>
-        <div class="chisiamo-card">
+        <div class="chisiamo-card" data-aos="fade-right" data-aos-delay="150">
             <h1 style="color: #999999;">Claudio Ruzza</h1>
             <h1>Istruttore</h1>
             <img widht="200" height="200" src="assets/img/claudio.jpg" style="border-radius: 50%;">
@@ -74,7 +74,7 @@ layout: default
     <div class="parallax-dovesiamo">
         Dove siamo
     </div>
-    <div class="dovesiamo-div">
+    <div class="dovesiamo-div" data-aos="fade-zoom-in" data-aos-delay="150">
         <div style="margin-right: 3%;">
             <h3>Ci incontriamo al Centro Polifunzionale di Barlassina</h3>
             <h4 style="margin-top: 1%; color: #999999;">Via Don Carlo Borghi, Barlassina, MB</h4>
