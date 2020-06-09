@@ -14,8 +14,7 @@ $(document).ready(function() {
     });
 
     window.onscroll = function() { scrollFunction() };
-    smo
-    othScroll();
+    smoothScroll();
 
     $('.btnTop').on('click', function(e) {
         e.preventDefault();
