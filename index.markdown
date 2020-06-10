@@ -2,6 +2,7 @@
 title: Caturnalia - Amici per gli scacchi
 layout: default
 ---
+<!doctype html>
 <section id="videoBG" class="header">
     <a class="btnTop"></a>
     <video playsinline autoplay muted loop>

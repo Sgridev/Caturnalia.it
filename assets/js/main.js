@@ -1,8 +1,8 @@
 "use strict";
 $(window).on("load", function() {
     AOS.init();
-    $(".navbar").css({ "display": "block" });
     $(".loader-wrapper").fadeOut("slow");
+    $(".navbar").css({ "display": "block" });
 });
 $(document).ready(function() {
     $("main").fadeIn(1000);

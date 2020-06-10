@@ -2,7 +2,7 @@
 title: News da Caturnalia
 layout: default
 ---
-
+<!doctype html>
 <section class="newsCat-section">
    <h1 class="newsCat-title" data-aos="fade-zoom-in">News da Caturnalia</h1>
    <div class="newsCat-div">
