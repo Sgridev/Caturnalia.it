@@ -2,9 +2,9 @@
 $(window).on("load", function() {
     AOS.init();
     $(".loader-wrapper").fadeOut("slow");
-    $(".navbar").css({ "display": "block" });
 });
 $(document).ready(function() {
+    $(".navbar").fadeIn(100);
     $("main").fadeIn(1000);
     $('.header').height($(window).height());
     $('.dropdown').hover(function() {
