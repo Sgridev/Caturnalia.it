@@ -6,7 +6,7 @@ layout: default
 <section id="videoBG" class="header">
     <a class="btnTop"></a>
     <video playsinline autoplay muted loop>
-         <source type="video/mp4" src="assets/img/Chess_Video_Background_hd.mp4" />
+         <source type="video/mp4" src="assets/img/Chess_Video_Background_hd.mp4"/>
          <source type="video/webm" src="assets/img/Chess_Video_Background_hd.webm" />
       </video>
     <h1 class="header-main-text" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
@@ -26,7 +26,7 @@ layout: default
             </section>
         </section>
         <section class="about-logo" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/logo.png" width="400" height="400">
+            <img src="assets/img/logo.png" width="400" height="400" alt="logo">
         </section>
     </div>
 </section>
@@ -37,7 +37,7 @@ layout: default
             {% for post in site.posts limit:4%}
             <li class="card-li">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="Caturnalia">
+                    <img class="card-img-top" src="assets/img/logoTORNEO.png" alt="logo-torneo">
                     <div class="card-body">
                         <h5 class="card-title">{{ post.title }}</h5>
                         <p class="card-text">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -57,14 +57,14 @@ layout: default
         <div class="chisiamo-card"  data-aos="fade-left"  data-aos-delay="150">
             <h1 style="color: #999999;">Gigi Sala</h1>
             <h1 style="">Presidente</h1>
-            <img widht="200" height="200" src="assets/img/gigi.jpg" style="border-radius: 50%;">
+            <img widht="200" height="200" src="assets/img/gigi.jpg" style="border-radius: 50%;" alt="gigi-sala">
             <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
                 mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
         </div>
         <div class="chisiamo-card" data-aos="fade-right" data-aos-delay="150">
             <h1 style="color: #999999;">Claudio Ruzza</h1>
             <h1>Istruttore</h1>
-            <img widht="200" height="200" src="assets/img/claudio.jpg" style="border-radius: 50%;">
+            <img widht="200" height="200" src="assets/img/claudio.jpg" style="border-radius: 50%;" alt="claudio-ruzza">
             <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
                 mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
         </div>
