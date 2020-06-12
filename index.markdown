@@ -36,7 +36,7 @@ layout: default
 </section>
 <section id="news" class="news-section">
     <div class="news-div">
-        <h1 class="news-title" data-aos="zoom-in" data-aos-delay="150">News</h1>
+        <h1 class="news-title" data-aos="zoom-in" data-aos-delay="150">Ultime News</h1>
         <ul class="news-ul" data-aos="fade-zoom-in" data-aos-delay="150">
             {% for post in site.posts limit:4%}
             <li class="card-li">

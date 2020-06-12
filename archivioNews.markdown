@@ -1,10 +1,10 @@
 ---
-title: News da Caturnalia
+title: Archivio News
 layout: default
 ---
 <!doctype html>
 <section class="newsCat-section">
-   <h1 class="newsCat-title" data-aos="fade-zoom-in">News da Caturnalia</h1>
+   <h1 class="newsCat-title" data-aos="fade-zoom-in">Archivio News</h1>
    <div class="newsCat-div">
        <ul class="newsCat-ul">
             {% for post in site.posts%}
