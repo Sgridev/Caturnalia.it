@@ -218,6 +218,10 @@
     padding-bottom: 1%;
   }
 
+  .footeraboutus-div {
+    display: none;
+  }
+
   .footercontacts-div {
     padding-bottom: 3%;
   }
@@ -445,10 +449,6 @@ video {
 }
 
 @media screen and (max-width: 768px) {
-  .footeraboutus-div {
-    display: none;
-  }
-
   .chisiamo-div {
     margin: 5%;
   }

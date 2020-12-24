@@ -217,6 +217,10 @@
     padding-bottom: 1%;
   }
 
+  .footeraboutus-div {
+    display: none;
+  }
+
   .footercontacts-div {
     padding-bottom: 3%;
   }
