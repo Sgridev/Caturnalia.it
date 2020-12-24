@@ -5,10 +5,9 @@ layout: default
 <!doctype html>
 <section id="videoBG" class="header">
     <a class="btnTop"></a>
-    <video playsinline autoplay muted loop>
-         <source type="video/mp4" src="assets/img/Chess_Video_Background_hd.mp4"/>
+    <video playsinline autoplay muted loop id="homevid">
          <source type="video/webm" src="assets/img/Chess_Video_Background_hd.webm" />
-      </video>
+    </video>
     <h1 class="header-main-text" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
         Benvenuti al <br> circolo scacchistico <br> Caturnalia
     </h1>
@@ -101,7 +100,7 @@ layout: default
             <h3>Ci incontriamo al Centro Polifunzionale di Barlassina</h3>
             <h4 style="margin-top: 1%; color: #999999;">Via Don Carlo Borghi, Barlassina, MB</h4>
             <p style="max-width: 30em; margin-top: 3%;">Ci potete raggiungere percorrendo la Milano Meda (SS35) fino all'uscita 13 (Barlassina).</p>
-            <p style="max-width: 30em;">Arrivati al parcheggio del centro Polifunzionale di via Borghi, seguite le indicazioni in loco che vi condurranno direttamente all'entrata di Caturnalia.</p>
+            <p style="max-width: 30em;">Arrivati al parcheggio del centro Polifunzionale di via Borghi, seguite le indicazioni in loco che vi condurranno direttamente all'entrata di <strong>Caturnalia</strong>.</p>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2788.5099092558194!2d9.13480791583685!3d45.66066292833301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478697cf39b953ff%3A0x80f9e7902945a198!2sCaturnalia%20-%20Circolo%20Amici%20degli%20Scacchi!5e0!3m2!1sit!2sit!4v1590223054694!5m2!1sit!2sit"
             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map-iframe"></iframe>
