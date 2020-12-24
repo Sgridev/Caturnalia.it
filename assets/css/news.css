@@ -272,6 +272,7 @@ section {
 .newsCat-ul {
   list-style: none;
   padding: 0;
+  margin: 3%;
 }
 
 .newsCat-li {
