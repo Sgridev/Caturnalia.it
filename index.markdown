@@ -63,15 +63,18 @@ layout: default
     </div>
     <div class="chisiamo-div">
         <div class="chisiamo-card"  data-aos="fade-left"  data-aos-delay="150">
-            <h1 style="color: #999999;">Gigi Sala</h1>
+            <h1 style="color: #999999;">Pierluigi Sala</h1>
             <h1 style="">Presidente</h1>
             <picture>
                 <source srcset="assets/img/gigi.webp" type="image/webp">
                 <source srcset="assets/img/gigi.png" type="image/png"> 
                 <img src="assets/img/gigi.jpg" style="border-radius: 50%;" alt="gigi-sala">
             </picture>     
-            <p class="chisiamo-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
-                mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+            <p class="chisiamo-p" style="margin-top: 5%">Classe 1956, Pierluigi Sala è <strong>presidente</strong> e cofondatore del circolo scacchistico Caturnalia.</p>
+            <p class="chisiamo-p">Ha esperienza pluridecennale nell'organizzazione di eventi e tornei scacchistici di rilevanza <strong>mediatica</strong>.</p>
+            <p class="chisiamo-p">È un punto di <strong>riferimento</strong> per la formazione scacchistica nelle scuole primarie della Brianza.</p>
+            <p class="chisiamo-p">Per gli amici "Gigi", si contraddistingue per i suoi <strong>valori</strong> e la sua bontà d'animo.</p>
+            <p class="chisiamo-p">Sono queste qualità che lo rendono il vero e proprio <strong>cuore</strong> del circolo.</p>
         </div>
         <div class="chisiamo-card" data-aos="fade-right" data-aos-delay="150">
             <h1 style="color: #999999;">Claudio Ruzza</h1>
