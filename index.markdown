@@ -70,7 +70,7 @@ layout: default
                 <source srcset="assets/img/gigi.png" type="image/png"> 
                 <img src="assets/img/gigi.jpg" style="border-radius: 50%;" alt="gigi-sala">
             </picture>     
-            <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
+            <p class="chisiamo-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
                 mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
         </div>
         <div class="chisiamo-card" data-aos="fade-right" data-aos-delay="150">
@@ -81,8 +81,11 @@ layout: default
                 <source srcset="assets/img/claudio.png" type="image/png"> 
                 <img src="assets/img/claudio.jpg" style="border-radius: 50%;" alt="claudio-ruzza">
             </picture>
-            <p style="max-width: 20em; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, purus sed volutpat euismod, sapien enim blandit nibh, vel mattis tellus arcu at justo. Morbi eu eros vel nisl laoreet rutrum. Nulla vel urna vulputate, faucibus lorem quis,
-                mattis elit. Nullam viverra placerat dui, ac condimentum justo ultricies eu. Vivamus aliquet orci diam, sed viverra nisl pulvinar vel. Ut sit amet congue mauris. Morbi at nisi felis.</p>
+            <p class="chisiamo-p" style="margin-top: 5%">Classe 1965, Claudio Ruzza è un <strong>Candidato Maestro FSI</strong> e cofondatore del circolo scacchistico Caturnalia.</p>
+            <p class="chisiamo-p">Nel 2012 ha ottenuto la certificazione di <strong>istruttore</strong> di scacchi dalla Federazione Scacchistica Italiana.</p>
+            <p class="chisiamo-p">È il primo divulgatore e contributore in Italia del rivuoluzionario sistema di abbinamento <strong>Keizer</strong>.</p>
+            <p class="chisiamo-p">La sua avventura con gli scacchi iniziò a sei anni, quando ricevette in regalo la sua prima scacchiera.</p>
+            <p class="chisiamo-p">Ciò gli permise di scoprire il mondo degli scacchi e rimanerne <strong>eternamente affascinato</strong>.</p>
         </div>
     </div>
 </section>
