@@ -213,8 +213,9 @@
 
 @media screen and (max-width: 768px) {
   .footer-div {
-    flex-direction: column;
-    padding-left: 5%;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 1%;
   }
 
   .footercontacts-div {
@@ -443,16 +444,46 @@ video {
   visibility: visible;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
+  .footeraboutus-div {
+    display: none;
+  }
+
+  .chisiamo-div {
+    margin: 5%;
+  }
+
+  .chisiamo-card {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .news-section {
+    padding-top: 10%;
+    padding-bottom: 3%;
+  }
+
+  .about-title {
+    padding-top: 10%;
+  }
+
+  .about-p {
+    padding-top: 0;
+  }
+
   .dovesiamo-div {
     flex-direction: column;
+    padding-top: 5%;
+  }
+
+  .dovesiamo-divson {
+    padding-bottom: 5%;
   }
 
   .map-iframe {
     height: 300px;
   }
-}
-@media screen and (max-width: 768px) {
+
   #videoBG {
     background: url(../img/homebg.jpg);
     background-position: center;
@@ -485,8 +516,7 @@ video {
   .about-logo {
     display: none;
   }
-}
-@media screen and (max-width: 400px) {
+
   .card {
     width: 150px;
   }

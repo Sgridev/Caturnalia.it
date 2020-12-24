@@ -60,8 +60,9 @@
 
 @media screen and (max-width: 768px) {
     .footer-div {
-        flex-direction: column;
-        padding-left: 5%;
+        flex-direction: row;
+        padding-top: 5%;
+        padding-bottom: 1%;
     }
     .footercontacts-div {
         padding-bottom: 3%;

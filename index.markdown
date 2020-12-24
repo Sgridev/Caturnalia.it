@@ -13,7 +13,7 @@ layout: default
     </h1>
 </section>
 <section id="about" class="about-section" data-aos="fade-left" data-aos-delay="150">
-    <h1>About us</h1>
+    <h1 class="about-title">About us</h1>
     <div class="about-div">
         <section id="about-description">
             <section class="about-p" data-aos="fade-left" data-aos-delay="150">
@@ -96,7 +96,7 @@ layout: default
         Dove siamo
     </div>
     <div class="dovesiamo-div" data-aos="fade-zoom-in" data-aos-delay="150">
-        <div style="margin-right: 3%;">
+        <div style="margin-right: 3%;" class="dovesiamo-divson">
             <h3>Ci incontriamo al Centro Polifunzionale di Barlassina</h3>
             <h4 style="margin-top: 1%; color: #999999;">Via Don Carlo Borghi, Barlassina, MB</h4>
             <p style="max-width: 30em; margin-top: 3%;">Ci potete raggiungere percorrendo la Milano Meda (SS35) fino all'uscita 13 (Barlassina).</p>
