@@ -525,5 +525,17 @@ video {
     display: none;
   }
 }
+@media screen and (min-width: 1921px) {
+  #videoBG {
+    background: url(../img/homebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #homevid {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

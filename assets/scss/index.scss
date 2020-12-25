@@ -1,258 +1,270 @@
-@use 'variables';
-@use 'base';
-.news-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-    flex-wrap: wrap;
-    margin-top: 5%;
-    padding-bottom: 5%;
-    margin-bottom: 0;
-    padding-inline-start: 0px
-}
-
-.about-section {
-    margin-bottom: 10%;
-    margin-right: 4%;
-    margin-left: 4%;
-}
-
-.btn {
-    background: variables.$standard-red;
-}
-
-.btn-primary {
-    border-color: transparent !important;
-    width: 100%;
-}
-
-.btn.btn-primary:hover,
-.btn.btn-primary:focus,
-.btn.btn-primary:active,
-.btn.btn-primary.active {
-    color: #fff;
-    background-color: #B0483B !important;
-    border-color: variables.$standard-red !important;
-}
-
-.news-section {
-    background: variables.$standard-red;
-}
-
-.news-div {
-    margin-bottom: 0%;
-    margin-right: 4%;
-    margin-left: 4%;
-}
-
-.about-logo {
-    display: flex;
-    justify-content: center;
-    margin-left: 2%;
-}
-
-.header-main-text {
-    position: relative;
-    display: flex;
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    font-size: 7vw;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    z-index: -100;
-}
-
-.about-p {
-    margin-top: 4%;
-}
-
-.about-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.news-title {
-    color: white;
-}
-
-.parallax-chisiamo {
-    background-image: url('../img/chisiamo.jpg');
-    height: 4em;
-    line-height: 4em;
-    white-space: nowrap;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    font-size: 7vw;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.parallax-dovesiamo {
-    background-image: url('../img/dovesiamo.jpg');
-    height: 4em;
-    line-height: 4em;
-    white-space: nowrap;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    font-size: 7vw;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.dovesiamo-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 3%;
-}
-
-.chisiamo-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.chisiamo-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 1%;
-}
-
-.chisiamo-p {
-    max-width: 25em;
-    margin-bottom: 0;
-}
-
-.map-iframe {
-    width: 100%;
-    height: 500px;
-}
-
-.card-li {
-    padding: 2%;
-}
-
-.btnTop {
-    display: inline-block;
-    background-color: variables.$standard-red;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s, opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-}
-
-.btnTop::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-}
-
-.btnTop:hover {
-    cursor: pointer;
-    background-color: #333;
-}
-
-.btnTop:active {
-    background-color: #555;
-}
-
-.btnTop.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-@media screen and (max-width: 768px) {
-    .chisiamo-div {
-        margin: 5%;
-    }
-    .chisiamo-card {
-        padding-top: 5%;
+    @use 'variables';
+    @use 'base';
+    .news-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        flex-wrap: wrap;
+        margin-top: 5%;
         padding-bottom: 5%;
+        margin-bottom: 0;
+        padding-inline-start: 0px
     }
+    
+    .about-section {
+        margin-bottom: 10%;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+    
+    .btn {
+        background: variables.$standard-red;
+    }
+    
+    .btn-primary {
+        border-color: transparent !important;
+        width: 100%;
+    }
+    
+    .btn.btn-primary:hover,
+    .btn.btn-primary:focus,
+    .btn.btn-primary:active,
+    .btn.btn-primary.active {
+        color: #fff;
+        background-color: #B0483B !important;
+        border-color: variables.$standard-red !important;
+    }
+    
     .news-section {
-        padding-top: 10%;
-        padding-bottom: 3%;
+        background: variables.$standard-red;
     }
-    .about-title {
-        padding-top: 10%;
+    
+    .news-div {
+        margin-bottom: 0%;
+        margin-right: 4%;
+        margin-left: 4%;
     }
+    
+    .about-logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    
+    .header-main-text {
+        position: relative;
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-size: 7vw;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        z-index: -100;
+    }
+    
     .about-p {
-        padding-top: 0;
+        margin-top: 4%;
     }
-    .dovesiamo-div {
-        flex-direction: column;
-        padding-top: 5%;
+    
+    .about-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
-    .dovesiamo-divson {
-        padding-bottom: 5%;
+    
+    .news-title {
+        color: white;
     }
-    .map-iframe {
-        height: 300px;
-    }
-    #videoBG {
-        background: url(../img/homebg.jpg);
+    
+    .parallax-chisiamo {
+        background-image: url('../img/chisiamo.jpg');
+        height: 4em;
+        line-height: 4em;
+        white-space: nowrap;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-size: 7vw;
+        text-shadow: 2px 2px 4px #000000;
     }
-    #homevid {
-        display: none;
+    
+    .parallax-dovesiamo {
+        background-image: url('../img/dovesiamo.jpg');
+        height: 4em;
+        line-height: 4em;
+        white-space: nowrap;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-size: 7vw;
+        text-shadow: 2px 2px 4px #000000;
     }
+    
+    .dovesiamo-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 3%;
+    }
+    
+    .chisiamo-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chisiamo-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 1%;
+    }
+    
+    .chisiamo-p {
+        max-width: 25em;
+        margin-bottom: 0;
+    }
+    
+    .map-iframe {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .card-li {
+        padding: 2%;
+    }
+    
     .btnTop {
-        width: 35px;
-        height: 35px;
+        display: inline-block;
         background-color: variables.$standard-red;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        transition: background-color .3s, opacity .5s, visibility .5s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1000;
     }
-    .btnTop:hover {
-        background-color: variables.$standard-red;
-    }
+    
     .btnTop::after {
-        line-height: 35px;
+        content: "\f077";
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff;
     }
-    .about-section {
-        margin-bottom: 28%;
+    
+    .btnTop:hover {
+        cursor: pointer;
+        background-color: #333;
     }
-    .about-logo {
-        display: none;
+    
+    .btnTop:active {
+        background-color: #555;
     }
-    .card {
-        width: 150px;
+    
+    .btnTop.show {
+        opacity: 1;
+        visibility: visible;
     }
-    .card-img,
-    .card-img-bottom,
-    .card-img-top {
-        display: none;
+    
+    @media screen and (max-width: 768px) {
+        .chisiamo-div {
+            margin: 5%;
+        }
+        .chisiamo-card {
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        .news-section {
+            padding-top: 10%;
+            padding-bottom: 3%;
+        }
+        .about-title {
+            padding-top: 10%;
+        }
+        .about-p {
+            padding-top: 0;
+        }
+        .dovesiamo-div {
+            flex-direction: column;
+            padding-top: 5%;
+        }
+        .dovesiamo-divson {
+            padding-bottom: 5%;
+        }
+        .map-iframe {
+            height: 300px;
+        }
+        #videoBG {
+            background: url(../img/homebg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #homevid {
+            display: none;
+        }
+        .btnTop {
+            width: 35px;
+            height: 35px;
+            background-color: variables.$standard-red;
+        }
+        .btnTop:hover {
+            background-color: variables.$standard-red;
+        }
+        .btnTop::after {
+            line-height: 35px;
+        }
+        .about-section {
+            margin-bottom: 28%;
+        }
+        .about-logo {
+            display: none;
+        }
+        .card {
+            width: 150px;
+        }
+        .card-img,
+        .card-img-bottom,
+        .card-img-top {
+            display: none;
+        }
     }
-}
+    
+    @media screen and (min-width: 1921px) {
+        #videoBG {
+            background: url(../img/homebg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #homevid {
+            display: none;
+        }
+    }
