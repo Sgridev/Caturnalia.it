@@ -1,20 +1,18 @@
 .loader-wrapper {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     background-color: rgb(248, 249, 250);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    text-align: center;
+    z-index: 1000;
 }
 
 .loader {
     display: inline-block;
     animation: loader 2s infinite ease;
-    position: fixed;
 }
 
 .loader-inner {
