@@ -42,7 +42,7 @@
 
 .MainTitleRow {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
 }
 
@@ -137,7 +137,7 @@
     font-weight: bold;
     text-align: center;
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
 }
 
 
@@ -228,7 +228,7 @@
     font-weight: bold;
     text-align: center;
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
 }
 
 
@@ -271,7 +271,7 @@
 
 .GameListHeader {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
 }
 
@@ -292,7 +292,7 @@
 /* even indexes                                               */
 
 .GameListEvenLine {
-    background-color: #d8f0d8;
+    background-color: #91a7c7;
 }
 
 
@@ -323,7 +323,7 @@
 
 .PlayerListTitle {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
     text-align: center;
 }
@@ -336,7 +336,7 @@
 
 .PlayerListHeader {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
 }
 
@@ -357,7 +357,7 @@
 /* with even indexes                                          */
 
 .PlayerListEvenLine {
-    background-color: #d8f0d8;
+    background-color: #91a7c7;
 }
 
 
@@ -390,7 +390,7 @@
 
 .RankingTitle {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
     text-align: center;
 }
@@ -403,7 +403,7 @@
 
 .RankingHeader {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
 }
 
@@ -424,7 +424,7 @@
 /* even indexes                                               */
 
 .RankingEvenLine {
-    background-color: #d8f0d8;
+    background-color: #91a7c7;
 }
 
 
@@ -446,7 +446,7 @@
 
 .XRefHeader {
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     font-weight: bold;
     vertical-align: bottom;
 }
@@ -468,7 +468,7 @@
 /* even indexes                                               */
 
 .XRefEvenLine {
-    background-color: #d8f0d8;
+    background-color: #91a7c7;
 }
 
 
@@ -615,7 +615,7 @@
     font-weight: bold;
     text-align: center;
     color: #f4e8f4;
-    background-color: #188048;
+    background-color: #252b34;
     padding-right: 0;
 }
 
