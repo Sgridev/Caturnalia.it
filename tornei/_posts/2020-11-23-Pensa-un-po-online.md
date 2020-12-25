@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+layout: torneo
 title:  "Pensa un po' online 2020"
 date:   2020-11-23
 ---
