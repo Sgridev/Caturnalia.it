@@ -589,4 +589,12 @@
         .AB_Player {
             min-width: 90px;
         }
+        .RankingTable {
+            display: block;
+            width: 335px;
+            overflow: hidden;
+        }
+        .RankingTitle {
+            padding-right: 50px;
+        }
     }
