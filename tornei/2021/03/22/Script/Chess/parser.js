@@ -1,7 +1,7 @@
 /*
  * parser.js
  *
- * Sevilla game viewer. (C) 2007-2014 JBF Software.
+ * Sevilla game viewer. (C) 2007-2019 JBF Software.
  * Written by JP Hendriks.
  *
  * The use of this code is permitted only with Sevilla generated web sites.
@@ -132,7 +132,7 @@ Parser.prototype.getCommentSymbol = function(openSym, closeSym, startString, end
 				bracketCount++;
 		if (this.scansym == closeSym)
 				bracketCount--;
-		if (this.scansym == '[')
+		if (this.scansym == '[' || this.scansym == '<')
 		{
 			this.nextChar();
 			if (this.scansym == '%')
@@ -148,7 +148,7 @@ Parser.prototype.getCommentSymbol = function(openSym, closeSym, startString, end
 		{
 			sym = sym+this.scansym;
 		}
-		if (this.scansym == ']')
+		if (this.scansym == ']' || this.scansym == '>')
 		{
 			incmd = false;
 		}
