@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Triplete degli scacchi"
-date:   2019-12-02
+date:   2021-12-29
 categories: chess tournament
 ---
   
