@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gara di soluzioni 2021"
-date:   2021-12-29
+date:   2021-12-27
 categories: chess tournament
 ---
   
