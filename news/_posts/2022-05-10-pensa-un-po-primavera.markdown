@@ -16,7 +16,7 @@ giovedì 19 maggio 2022 presso la nostra sede, al Centro Polifunzionale di Via B
 Tempo di riflessione: 60 minuti + 30 secondi a mossa (cadenza Fischer) per l’intera partita.  
 La trascrizione delle mosse è obbligatoria  
 Attenzione! Partecipare a tutti e 5 i turni non è indispensabile!! Con il sistema Keizer puoi giocare quanti e quali turni preferisci, saltarne uno, o due, oppure giocarne anche uno soltanto! E in qualsiasi caso ad ogni turno sarai abbinato ad un giocatore di pari forza alla tua.  
-Una breve spiegazione del principio del sistema Keizer si trova a questo link: [caturnalia.it/keizer](caturnalia.it/keizer)  
+Una breve spiegazione del principio del sistema Keizer si trova a questo link: [caturnalia.it/keizer](https://www.caturnalia.it/keizer.html)  
 ## Classifica finale con premi per i primi tre classificati assoluti e per il primo Over 60  
 Quote iscrizione - soci di Caturnalia: 5 Euro, non soci: 10 Euro  
 La partita di torneo inizia improrogabilmente alle ore 21.  
