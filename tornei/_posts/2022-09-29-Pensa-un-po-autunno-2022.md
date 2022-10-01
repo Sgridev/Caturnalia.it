@@ -1,7 +1,7 @@
 ﻿---
 layout: torneo
 title:  "Pensa un po' autunno 2022"
-date:   2022-05-01
+date:   2022-09-29
 ---
 <script>
   function resizeIframe(obj) {
