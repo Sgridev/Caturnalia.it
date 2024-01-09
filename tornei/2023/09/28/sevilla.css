@@ -139,7 +139,7 @@
   border-style: solid;
   border-width: thin;
   border-color: grey;
-  width: 135px;
+  width: 180px;
   vertical-align: top;
 }
 
@@ -307,7 +307,7 @@
 /* a table containing a ranking                               */
 .RankingHeader {
   color: #f4e8f4;
-  background-color: #188048;
+  background-color: #252b34;
   font-weight: bold;
 }
 
