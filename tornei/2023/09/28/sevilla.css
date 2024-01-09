@@ -320,7 +320,7 @@
 /* RankingEvenLine is the style for rows in a ranking with    */
 /* even indexes                                               */
 .RankingEvenLine {
-  background-color: #d8f0d8;
+  background-color: #91a7c7;
 }
 
 /* XTable is the style for a table with an crosstable or      */
@@ -639,5 +639,8 @@ a {
     display: block;
     width: 335px;
     overflow: hidden;
+  }
+  .MenuTable {
+    width: 333px;
   }
 }
