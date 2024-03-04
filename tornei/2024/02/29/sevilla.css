@@ -311,14 +311,6 @@
   font-weight: bold;
 }
 
-.XRefEvenLine {
-  background-color: #252b34;
-}
-
-.XTableEvenLine {
-  background-color: #252b34;
-}
-
 /* RankingOddLine is the style for rows in a ranking with odd */
 /* indexes                                                    */
 .RankingOddLine {
@@ -356,7 +348,7 @@
 /* XTableEvenline is the style for rows in a crosstable with  */
 /* even indexes                                               */
 .XTableEvenLine {
-  background-color: #d8f0d8;
+  background-color: #252b34;
 }
 
 /* XTableCell is special styling for cells of a crosstable,   */
