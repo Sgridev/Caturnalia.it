@@ -124,7 +124,7 @@
   font-weight: bold;
   text-align: center;
   color: #f4e8f4;
-  background-color: #91a7c7;
+  background-color: #252b34;
 }
 
 /* MainTable holds the style of the main table                */
@@ -190,7 +190,7 @@
   font-weight: bold;
   text-align: center;
   color: #f4e8f4;
-  background-color: #91a7c7;
+  background-color: #252b34;
 }
 
 /* PlayerWebLink formats the cells where the player web links */
@@ -257,7 +257,7 @@
 /* with players                                               */
 .PlayerListTitle {
   color: #f4e8f4;
-  background-color: #91a7c7;
+  background-color: #252b34;
   font-weight: bold;
   text-align: center;
 }
@@ -266,7 +266,7 @@
 /* a table containing the list of players                     */
 .PlayerListHeader {
   color: #f4e8f4;
-  background-color: #91a7c7;
+  background-color: #252b34;
   font-weight: bold;
 }
 
@@ -338,7 +338,7 @@
 /* a crosstable                                               */
 .XTableHeader {
   color: #f4e8f4;
-  background-color: #91a7c7;
+  background-color: #252b34;
   font-weight: bold;
   vertical-align: bottom;
 }
@@ -464,7 +464,7 @@
   font-size: 1em;
   text-align: center;
   color: #f4e8f4;
-  background-color: #91a7c7;
+  background-color: #252b34;
 }
 
 /* Board is the overall format for the board area             */
