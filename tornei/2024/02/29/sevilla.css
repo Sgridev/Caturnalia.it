@@ -311,6 +311,14 @@
   font-weight: bold;
 }
 
+.XRefEvenLine {
+  background-color: #252b34;
+}
+
+.XTableEvenLine {
+  background-color: #252b34;
+}
+
 /* RankingOddLine is the style for rows in a ranking with odd */
 /* indexes                                                    */
 .RankingOddLine {
