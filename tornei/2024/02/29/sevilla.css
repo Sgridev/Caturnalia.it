@@ -215,10 +215,6 @@
   border-width: thin;
 }
 
-#AbsencesTable{
-  display: none;
-}
-
 /* GameListHeader is the style for the header row of          */
 /* a table with games                                         */
 .GameListHeader {
