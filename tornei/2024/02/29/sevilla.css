@@ -239,7 +239,7 @@
 .GM_White,
 .GM_Black,
 .AB_Player {
-  min-width: 135px;
+  min-width: 90px;
 }
 
 /* PlayerListTable is the style for a table with the          */
