@@ -36,6 +36,12 @@ Bb4 35. Qc7 Rc8 36. Qxc8 Nxc8 37. b7 1-0
 [BlackTeam "Club 1"]
 
 {[%SevillaID "1110"]}
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 c6 5.Bxf6 exf6 6.e3 Bg7 7.cxd5 cxd5 8.Qb3 Nc6
+9.Qxd5 Qxd5 10.Nxd5 O-O 11.a3 Be6 12.Nc3 Na5 13.Bd3 Bc4 14.Ke2 Rfe8 15.Nf3 Rad8
+16.Bxc4 Nxc4 17.b3 Nb6 18.Rhd1 f5 19.Rac1 f4 20.e4 Nd5 21.Kd3 Nf6 22.h3 Nd7
+23.Ne2 Ne5+ 24.Nxe5 Bxe5 25.f3 g5 26.Rc5 b6 27.Rc4 Bb8 28.Rdc1 Kf8 29.Rc6 Rd6
+30.Rxd6 Bxd6 31.a4 Ke7 32.Nc3 Kd7 33.Nb5 a6 34.Nc3 Rc8 35.Ne2 Rxc1 36.Nxc1 f6
+37.Kc4 Kc6 38.d5+ Kc7 39.Ne2 a5 40.Nd4 Bc5 41.Ne6+ Kd6 42.Nxc5 bxc5 43.Kb5 1-0 
 1-0
 
 [Event "Pensa un po' Primavera 2025"]
@@ -70,6 +76,11 @@ Bb4 35. Qc7 Rc8 36. Qxc8 Nxc8 37. b7 1-0
 [BlackTeam "Club 1"]
 
 {[%SevillaID "1114"]}
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Bd3 Nbd7 7.O-O c6 8.Be3 a6 9.a4
+b6 10.Qc2 Bb7 11.b4 Rc8 12.a5 b5 13.c5 dxc5 14.dxc5 e5 15.Rad1 Qe8 16.h3 Kh8
+17.Qd2 Nh5 18.g4 Nhf6 19.Bb1 Rd8 20.Qc1 Ng8 21.Ba2 h6 22.Rd6 Kh7 23.Rfd1 Ngf6
+24.Qd2 Qe7 25.g5 hxg5 26.Bxg5 Bc8 27.Nh2 Qe8 28.Ng4 Rh8 29.Nxf6+ Nxf6 30.Rxd8
+Qe7 31.Rxh8+ Bxh8 32.Qd6 1-0 
 1-0
 
 [Event "Pensa un po' Primavera 2025"]
@@ -134,7 +145,7 @@ Kc7 36.Ke5 Nc5 37.Kf6 Nxe4+ 38.Kxf7 b5 39.Ke7 b4 40.f6 Nd6 41.f7 Nxf7 0-1
 Nd7 10.O-O Be7 11.Rac1 Nf6 12.cxd5 exd5 13.Ne5 Ne4 14.Nxe4 fxe4 15.Bg4 Qb6
 16.Bxc8 Raxc8 17.Qxb6 axb6 18.Nd7 Rfd8 19.Nxb6 Bb4 20.a3 Ba5 21.Na4 $4 Ra8
 22.Nc5 Ra7 23.Rc2 Bb6 24.Ne6 Re8 25.Nf4 g6 26.g3 Bc7 27.Nxd5 Bxg3 28.Nf6+ Kf7
-29.Nxe8 Bxh2+ 30.Kxh2 Kxe8 0-1 
+29.Nxe8 Bxh2+ 30.Kxh2 Kxe8 1-0 
 1-0
 
 [Event "Pensa un po' Primavera 2025"]
@@ -150,6 +161,10 @@ Nd7 10.O-O Be7 11.Rac1 Nf6 12.cxd5 exd5 13.Ne5 Ne4 14.Nxe4 fxe4 15.Bg4 Qb6
 [BlackTeam "Club 1"]
 
 {[%SevillaID "1113"]}
+1.d4 Nf6 2.c4 d5 3.Bf4 g6 4.e3 Bg7 5.Nc3 O-O 6.Nf3 Nc6 7.Qc2 Bf5 8.Bd3 Nb4 9.Qb3
+Nxd3+ 10.Ke2 Nxf4+ 11.exf4 Bg4 12.Nb5 c6 13.Na3 Re8 14.h3 Bxf3+ 15.Kxf3 b6 16.g4
+Ne4 17.Qd3 e6 18.Ke2 Qd6 19.Ke3 c5 20.Nb5 cxd4+ 21.Kf3 Qc5 22.b3 a6 23.b4 Qc6
+24.cxd5 exd5 25.Nxd4 Bxd4 26.Qxd4 Qc3+ 27.Qe3 Nd2+ 0-1 
 0-1
 
 [Event "Pensa un po' Primavera 2025"]
@@ -165,6 +180,11 @@ Nd7 10.O-O Be7 11.Rac1 Nf6 12.cxd5 exd5 13.Ne5 Ne4 14.Nxe4 fxe4 15.Bg4 Qb6
 [BlackTeam "Club 1"]
 
 {[%SevillaID "1111"]}
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 Bc5 5.Bg5 O-O 6.O-O a6 7.a3 b5 8.Bd5 Bb7 9.Bxc6
+Bxc6 10.Nxe5 Bb7 11.Ng4 Be7 12.Nc3 Nxg4 13.Bxe7 Qxe7 14.Qxg4 c6 15.Rae1 Rae8
+16.h3 Bc8 17.Qd1 Qg5 18.Qc1 Qg6 19.Qe3 d5 20.Qg3 Qf6 21.exd5 Rxe1 22.Rxe1 cxd5
+23.Qe5 Qg6 24.Qg3 Qc6 25.Qf3 Bb7 26.d4 Qg6 27.Re2 Qg5 28.Nxd5 Bxd5 29.Qd3 Qxg2#
+0-1 
 0-1
 
 [Event "Pensa un po' Primavera 2025"]
